@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "riya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  }
+}
