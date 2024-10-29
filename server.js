@@ -14,6 +14,7 @@ app.use(express.json()); //to receive json data
 app.use(bodyParser.urlencoded({ extended: false }));
 //routes
 app.use("/api/v1/user", require('./routes/userRoutes'))
+app.use("/api/v1/student", require('./routes/studentRoutes'));
 
 const PORT = process.env.PORT || 5000;
 
